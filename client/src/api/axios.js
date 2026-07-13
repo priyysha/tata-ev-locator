@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://tataevlocatorbackend-zftc9kq6.b4a.run/",
 });
 
 api.interceptors.request.use((config) => {
