@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://tataevlocatorbackend-zftc9kq6.b4a.run/",
+  baseURL: "https://tataevlocatorbackend-zftc9kq6.b4a.run/api",
 });
 
 api.interceptors.request.use((config) => {
