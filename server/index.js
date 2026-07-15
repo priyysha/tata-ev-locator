@@ -23,6 +23,15 @@ app.get("/", (req, res) => {
   res.send("Server is running!");
 });
 
+// temporary route for testing
+
+console.log("Loading routes...");
+console.log("/api/auth");
+console.log("/api/stations");
+console.log("/api/slots");
+
+// temporary route for testing ends
+
 app.use("/api/auth", authRoutes);
 app.use("/api/stations", stationRoutes);
 app.use("/api/slots", slotRoutes);
