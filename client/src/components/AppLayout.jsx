@@ -15,7 +15,7 @@ const NAV_ITEMS = [
 ];
 
 export default function AppLayout({ children }) {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [logoutConfirmOpen, setLogoutConfirmOpen] = useState(false);
   const { user, logout } = useAuth();
   const location = useLocation();
